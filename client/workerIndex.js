@@ -1,0 +1,5 @@
+class workerIndex {
+    runCopyVideo() {
+        
+    }
+}

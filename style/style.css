@@ -1,0 +1,90 @@
+#myAudio{
+    outline: none;
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+.create-video, .upload-video{
+    padding: 100px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top left, #99ccff 0%, #ff99cc 100%);
+    transition: all 600ms ease;
+}
+#toUpload{
+    position: fixed;
+    left: 90vw;
+    bottom: 50px;
+    z-index: 10;
+    transition: all 600ms ease;
+}
+.upload-video{
+    left: 100%;
+    background: linear-gradient(to top right, #99ccff 0%, #ff99cc 100%);
+}
+#fileName{
+    margin-left: 10px;
+}
+.upload-video .button, .create-video .button{
+    display: flex;
+    justify-content: center;
+}
+.upload-video button, .create-video button{
+    width: 120px;
+    display: block;
+}
+.create-video button:first-child{
+    margin-right: 20px;
+}
+.upload-video button:first-child{
+    margin-right: 20px;
+}
+.btn-warning{
+    color: #fff;
+}
+.btn-warning:hover{
+    color: #fff;
+}
+.btn-warning:focus, .btn-success:focus, .btn-primary:focus, .btn-danger:focus {
+    color: #fff;
+    border: none;
+    box-shadow: none;
+}
+#code{
+    height: 200px;
+    padding: 10px;
+}
+.chooseFile{
+    background: #333;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.chooseFile:hover{
+    box-shadow: 0 0 5px #000;
+}
+b{
+    font-weight: 500;
+}
+#toUpload{
+    font-size: 36px;
+    cursor: pointer;
+}
+#toUpload i{
+    transition: 300ms ease all;
+    padding: 10px;
+}
+#toUpload:hover i{
+    color: #333;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 50px #fff;
+}

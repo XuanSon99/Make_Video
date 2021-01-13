@@ -1,0 +1,2159 @@
+{
+    "responseContext": {
+        "serviceTrackingParams": [
+            {
+                "service": "GFEEDBACK",
+                "params": [
+                    {
+                        "key": "browse_id",
+                        "value": "UCUDKOh9so7OQg73R69_mDyA"
+                    },
+                    {
+                        "key": "logged_in",
+                        "value": "0"
+                    },
+                    {
+                        "key": "country-type",
+                        "value": "B"
+                    },
+                    {
+                        "key": "e",
+                        "value": "23836792,23839597,23964393,23963924,23937429,23911055,23942338,23958692,23942633,23885571,23804281,23967042,23946420,23884386,23950597,23951138,23954000,23918597,23966468,23948841,23821391,24590296,23934970,23857949,23967524,23956875,1714252,23954761,23948944,23744176,23880043,23944779,23968460,23951620,23882503,23890959"
+                    }
+                ]
+            },
+            {
+                "service": "GOOGLE_HELP",
+                "params": [
+                    {
+                        "key": "browse_id",
+                        "value": "UCUDKOh9so7OQg73R69_mDyA"
+                    }
+                ]
+            },
+            {
+                "service": "CSI",
+                "params": [
+                    {
+                        "key": "c",
+                        "value": "WEB"
+                    },
+                    {
+                        "key": "cver",
+                        "value": "2.20201105.01.00"
+                    },
+                    {
+                        "key": "yt_li",
+                        "value": "0"
+                    },
+                    {
+                        "key": "GetChannelPage_rid",
+                        "value": "0x947ddef4639ce799"
+                    }
+                ]
+            },
+            {
+                "service": "GUIDED_HELP",
+                "params": [
+                    {
+                        "key": "logged_in",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "service": "ECATCHER",
+                "params": [
+                    {
+                        "key": "client.version",
+                        "value": "2.20201105"
+                    },
+                    {
+                        "key": "client.name",
+                        "value": "WEB"
+                    }
+                ]
+            }
+        ],
+        "maxAgeSeconds": 300,
+        "webResponseContextExtensionData": {
+            "ytConfigData": {
+                "csn": "EbakX-mQFMvcqAH0tKygCQ",
+                "visitorData": "CgtzVzA0SjZIR29TMCiR7JL9BQ%3D%3D",
+                "rootVisualElementType": 3611
+            },
+            "hasDecorated": true
+        }
+    },
+    "contents": {
+        "twoColumnBrowseResultsRenderer": {
+            "tabs": [
+                {
+                    "tabRenderer": {
+                        "endpoint": {
+                            "clickTrackingParams": "CCEQ8JMBGAAiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                            "commandMetadata": {
+                                "webCommandMetadata": {
+                                    "url": "/channel/UCUDKOh9so7OQg73R69_mDyA/featured",
+                                    "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                                    "rootVe": 3611
+                                }
+                            },
+                            "browseEndpoint": {
+                                "browseId": "UCUDKOh9so7OQg73R69_mDyA",
+                                "params": "EghmZWF0dXJlZA%3D%3D",
+                                "canonicalBaseUrl": "/channel/UCUDKOh9so7OQg73R69_mDyA"
+                            }
+                        },
+                        "title": "Trang chủ",
+                        "selected": false,
+                        "trackingParams": "CCEQ8JMBGAAiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                    }
+                },
+                {
+                    "tabRenderer": {
+                        "endpoint": {
+                            "clickTrackingParams": "CCAQ8JMBGAEiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                            "commandMetadata": {
+                                "webCommandMetadata": {
+                                    "url": "/channel/UCUDKOh9so7OQg73R69_mDyA/videos",
+                                    "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                                    "rootVe": 3611
+                                }
+                            },
+                            "browseEndpoint": {
+                                "browseId": "UCUDKOh9so7OQg73R69_mDyA",
+                                "params": "EgZ2aWRlb3M%3D",
+                                "canonicalBaseUrl": "/channel/UCUDKOh9so7OQg73R69_mDyA"
+                            }
+                        },
+                        "title": "Video",
+                        "selected": false,
+                        "trackingParams": "CCAQ8JMBGAEiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                    }
+                },
+                {
+                    "tabRenderer": {
+                        "endpoint": {
+                            "clickTrackingParams": "CB8Q8JMBGAIiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                            "commandMetadata": {
+                                "webCommandMetadata": {
+                                    "url": "/channel/UCUDKOh9so7OQg73R69_mDyA/playlists",
+                                    "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                                    "rootVe": 3611
+                                }
+                            },
+                            "browseEndpoint": {
+                                "browseId": "UCUDKOh9so7OQg73R69_mDyA",
+                                "params": "EglwbGF5bGlzdHM%3D",
+                                "canonicalBaseUrl": "/channel/UCUDKOh9so7OQg73R69_mDyA"
+                            }
+                        },
+                        "title": "Danh sách phát",
+                        "selected": false,
+                        "trackingParams": "CB8Q8JMBGAIiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                    }
+                },
+                {
+                    "tabRenderer": {
+                        "endpoint": {
+                            "clickTrackingParams": "CB4Q8JMBGAMiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                            "commandMetadata": {
+                                "webCommandMetadata": {
+                                    "url": "/channel/UCUDKOh9so7OQg73R69_mDyA/community",
+                                    "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                                    "rootVe": 3611
+                                }
+                            },
+                            "browseEndpoint": {
+                                "browseId": "UCUDKOh9so7OQg73R69_mDyA",
+                                "params": "Egljb21tdW5pdHk%3D",
+                                "canonicalBaseUrl": "/channel/UCUDKOh9so7OQg73R69_mDyA"
+                            }
+                        },
+                        "title": "Cộng đồng",
+                        "selected": false,
+                        "trackingParams": "CB4Q8JMBGAMiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                    }
+                },
+                {
+                    "tabRenderer": {
+                        "endpoint": {
+                            "clickTrackingParams": "CB0Q8JMBGAQiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                            "commandMetadata": {
+                                "webCommandMetadata": {
+                                    "url": "/channel/UCUDKOh9so7OQg73R69_mDyA/channels",
+                                    "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                                    "rootVe": 3611
+                                }
+                            },
+                            "browseEndpoint": {
+                                "browseId": "UCUDKOh9so7OQg73R69_mDyA",
+                                "params": "EghjaGFubmVscw%3D%3D",
+                                "canonicalBaseUrl": "/channel/UCUDKOh9so7OQg73R69_mDyA"
+                            }
+                        },
+                        "title": "Kênh",
+                        "selected": false,
+                        "trackingParams": "CB0Q8JMBGAQiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                    }
+                },
+                {
+                    "tabRenderer": {
+                        "endpoint": {
+                            "clickTrackingParams": "CBoQ8JMBGAUiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                            "commandMetadata": {
+                                "webCommandMetadata": {
+                                    "url": "/channel/UCUDKOh9so7OQg73R69_mDyA/about",
+                                    "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                                    "rootVe": 3611
+                                }
+                            },
+                            "browseEndpoint": {
+                                "browseId": "UCUDKOh9so7OQg73R69_mDyA",
+                                "params": "EgVhYm91dA%3D%3D",
+                                "canonicalBaseUrl": "/channel/UCUDKOh9so7OQg73R69_mDyA"
+                            }
+                        },
+                        "title": "Giới thiệu",
+                        "selected": true,
+                        "content": {
+                            "sectionListRenderer": {
+                                "contents": [
+                                    {
+                                        "itemSectionRenderer": {
+                                            "contents": [
+                                                {
+                                                    "channelAboutFullMetadataRenderer": {
+                                                        "description": {
+                                                            "simpleText": "Kênh lạc hồng bolero chuyên xuất bản các dòng nhạc dân ca bolero trữ tinh remix nhạc sến hay nhất say đắm lòng người với chất lượng âm thanh tốt nhất đảm bảo chất lượng cao và làm hài lòng bạn nghe nhạc rất mong đc ghé nghe và ủng hộ của tất cả các bạn trên khắp mọi miền  lạc hồng bolero xin kính chúc mọi người nghe nhạc vui vẻ xin chân thành cảm ơn"
+                                                        },
+                                                        "primaryLinks": [
+                                                            {
+                                                                "navigationEndpoint": {
+                                                                    "clickTrackingParams": "CBwQuy8YACITCOjBidnw7OwCFZAGYAodYfwLCQ==",
+                                                                    "commandMetadata": {
+                                                                        "webCommandMetadata": {
+                                                                            "url": "https://www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA?sub_confirmation=1",
+                                                                            "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                                                            "rootVe": 83769
+                                                                        }
+                                                                    },
+                                                                    "urlEndpoint": {
+                                                                        "url": "https://www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA?sub_confirmation=1",
+                                                                        "nofollow": true
+                                                                    }
+                                                                },
+                                                                "icon": {
+                                                                    "thumbnails": [
+                                                                        {
+                                                                            "url": "//s2.googleusercontent.com/s2/favicons?domain_url=https%3A%2F%2Fwww.youtube.com%2F\u0026feature=youtube_channel"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "title": {
+                                                                    "simpleText": "Giúp Mình Đạt 10.000 Đăng Ký ♥"
+                                                                }
+                                                            },
+                                                            {
+                                                                "navigationEndpoint": {
+                                                                    "clickTrackingParams": "CBwQuy8YACITCOjBidnw7OwCFZAGYAodYfwLCQ==",
+                                                                    "commandMetadata": {
+                                                                        "webCommandMetadata": {
+                                                                            "url": "https://www.youtube.com/redirect?event=channel_description\u0026redir_token=QUFFLUhqbk92Y3pWTHZUdkpmcm9DODhMLVhrY2dTbUNKUXxBQ3Jtc0trX240eUFCNFd5cXlHa1JaVXN1WG5oM1pMZkFmUi1sSndGRURTcndfRHdiS3Jrdm9PNTVrTnhsb0JJcHlEMlpHNEpIaFNQVlpYZnhtTGxCOWxmb18xdllBSkVKV2NzNmppcFVCMWV6czdwX0VqeWZBaw\u0026q=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100012721262619",
+                                                                            "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                                                            "rootVe": 83769
+                                                                        }
+                                                                    },
+                                                                    "urlEndpoint": {
+                                                                        "url": "https://www.youtube.com/redirect?event=channel_description\u0026redir_token=QUFFLUhqbk92Y3pWTHZUdkpmcm9DODhMLVhrY2dTbUNKUXxBQ3Jtc0trX240eUFCNFd5cXlHa1JaVXN1WG5oM1pMZkFmUi1sSndGRURTcndfRHdiS3Jrdm9PNTVrTnhsb0JJcHlEMlpHNEpIaFNQVlpYZnhtTGxCOWxmb18xdllBSkVKV2NzNmppcFVCMWV6czdwX0VqeWZBaw\u0026q=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100012721262619",
+                                                                        "target": "TARGET_NEW_WINDOW",
+                                                                        "nofollow": true
+                                                                    }
+                                                                },
+                                                                "icon": {
+                                                                    "thumbnails": [
+                                                                        {
+                                                                            "url": "//s2.googleusercontent.com/s2/favicons?domain_url=https%3A%2F%2Fwww.facebook.com%2F\u0026feature=youtube_channel"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "title": {
+                                                                    "simpleText": "Facebook Xuân Hữu"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "viewCountText": {
+                                                            "simpleText": "50.141.009 lượt xem"
+                                                        },
+                                                        "joinedDateText": {
+                                                            "runs": [
+                                                                {
+                                                                    "text": "Đã tham gia "
+                                                                },
+                                                                {
+                                                                    "text": "6 thg 2, 2017"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "canonicalChannelUrl": "http://www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA",
+                                                        "bypassBusinessEmailCaptcha": false,
+                                                        "title": {
+                                                            "simpleText": "Bolero Kim Tuyến"
+                                                        },
+                                                        "avatar": {
+                                                            "thumbnails": [
+                                                                {
+                                                                    "url": "https://yt3.ggpht.com/a/AATXAJxsMgDkZeU5vJJjyFvO_p_uO9hvgQoHNdjvGOzQ4A=s48-c-k-c0x00ffffff-no-rj",
+                                                                    "width": 48,
+                                                                    "height": 48
+                                                                },
+                                                                {
+                                                                    "url": "https://yt3.ggpht.com/a/AATXAJxsMgDkZeU5vJJjyFvO_p_uO9hvgQoHNdjvGOzQ4A=s88-c-k-c0x00ffffff-no-rj",
+                                                                    "width": 88,
+                                                                    "height": 88
+                                                                },
+                                                                {
+                                                                    "url": "https://yt3.ggpht.com/a/AATXAJxsMgDkZeU5vJJjyFvO_p_uO9hvgQoHNdjvGOzQ4A=s176-c-k-c0x00ffffff-no-rj",
+                                                                    "width": 176,
+                                                                    "height": 176
+                                                                }
+                                                            ]
+                                                        },
+                                                        "country": {
+                                                            "simpleText": "Việt Nam"
+                                                        },
+                                                        "showDescription": true,
+                                                        "descriptionLabel": {
+                                                            "runs": [
+                                                                {
+                                                                    "text": "Mô tả"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "detailsLabel": {
+                                                            "runs": [
+                                                                {
+                                                                    "text": "Chi tiết"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "primaryLinksLabel": {
+                                                            "runs": [
+                                                                {
+                                                                    "text": "Liên kết"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "statsLabel": {
+                                                            "runs": [
+                                                                {
+                                                                    "text": "Thống kê"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "countryLabel": {
+                                                            "runs": [
+                                                                {
+                                                                    "text": "\nĐịa điểm:\n  ",
+                                                                    "deemphasize": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        "channelId": "UCUDKOh9so7OQg73R69_mDyA"
+                                                    }
+                                                }
+                                            ],
+                                            "trackingParams": "CBwQuy8YACITCOjBidnw7OwCFZAGYAodYfwLCQ=="
+                                        }
+                                    }
+                                ],
+                                "trackingParams": "CBsQui8iEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                            }
+                        },
+                        "trackingParams": "CBoQ8JMBGAUiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                    }
+                },
+                {
+                    "expandableTabRenderer": {
+                        "endpoint": {
+                            "clickTrackingParams": "CAAQhGciEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                            "commandMetadata": {
+                                "webCommandMetadata": {
+                                    "url": "/channel/UCUDKOh9so7OQg73R69_mDyA/search",
+                                    "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                                    "rootVe": 3611
+                                }
+                            },
+                            "browseEndpoint": {
+                                "browseId": "UCUDKOh9so7OQg73R69_mDyA",
+                                "params": "EgZzZWFyY2g%3D",
+                                "canonicalBaseUrl": "/channel/UCUDKOh9so7OQg73R69_mDyA"
+                            }
+                        },
+                        "title": "Tìm kiếm",
+                        "selected": false
+                    }
+                }
+            ]
+        }
+    },
+    "header": {
+        "c4TabbedHeaderRenderer": {
+            "channelId": "UCUDKOh9so7OQg73R69_mDyA",
+            "title": "Bolero Kim Tuyến",
+            "navigationEndpoint": {
+                "clickTrackingParams": "CBcQ8DsiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                "commandMetadata": {
+                    "webCommandMetadata": {
+                        "url": "/channel/UCUDKOh9so7OQg73R69_mDyA",
+                        "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                        "rootVe": 3611
+                    }
+                },
+                "browseEndpoint": {
+                    "browseId": "UCUDKOh9so7OQg73R69_mDyA",
+                    "canonicalBaseUrl": "/channel/UCUDKOh9so7OQg73R69_mDyA"
+                }
+            },
+            "avatar": {
+                "thumbnails": [
+                    {
+                        "url": "https://yt3.ggpht.com/a/AATXAJxsMgDkZeU5vJJjyFvO_p_uO9hvgQoHNdjvGOzQ4A=s48-c-k-c0x00ffffff-no-rj",
+                        "width": 48,
+                        "height": 48
+                    },
+                    {
+                        "url": "https://yt3.ggpht.com/a/AATXAJxsMgDkZeU5vJJjyFvO_p_uO9hvgQoHNdjvGOzQ4A=s88-c-k-c0x00ffffff-no-rj",
+                        "width": 88,
+                        "height": 88
+                    },
+                    {
+                        "url": "https://yt3.ggpht.com/a/AATXAJxsMgDkZeU5vJJjyFvO_p_uO9hvgQoHNdjvGOzQ4A=s176-c-k-c0x00ffffff-no-rj",
+                        "width": 176,
+                        "height": 176
+                    }
+                ]
+            },
+            "banner": {
+                "thumbnails": [
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+                        "width": 1060,
+                        "height": 175
+                    },
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w1138-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+                        "width": 1138,
+                        "height": 188
+                    },
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+                        "width": 1707,
+                        "height": 282
+                    },
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w2120-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+                        "width": 2120,
+                        "height": 350
+                    },
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w2276-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+                        "width": 2276,
+                        "height": 376
+                    },
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+                        "width": 2560,
+                        "height": 423
+                    }
+                ]
+            },
+            "headerLinks": {
+                "channelHeaderLinksRenderer": {
+                    "primaryLinks": [
+                        {
+                            "navigationEndpoint": {
+                                "clickTrackingParams": "CBcQ8DsiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                                "commandMetadata": {
+                                    "webCommandMetadata": {
+                                        "url": "https://www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA?sub_confirmation=1",
+                                        "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                        "rootVe": 83769
+                                    }
+                                },
+                                "urlEndpoint": {
+                                    "url": "https://www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA?sub_confirmation=1",
+                                    "nofollow": true
+                                }
+                            },
+                            "icon": {
+                                "thumbnails": [
+                                    {
+                                        "url": "//s2.googleusercontent.com/s2/favicons?domain_url=https%3A%2F%2Fwww.youtube.com%2F\u0026feature=youtube_channel"
+                                    }
+                                ]
+                            },
+                            "title": {
+                                "simpleText": "Giúp Mình Đạt 10.000 Đăng Ký ♥"
+                            }
+                        }
+                    ],
+                    "secondaryLinks": [
+                        {
+                            "navigationEndpoint": {
+                                "clickTrackingParams": "CBcQ8DsiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                                "commandMetadata": {
+                                    "webCommandMetadata": {
+                                        "url": "https://www.youtube.com/redirect?event=channel_banner\u0026redir_token=QUFFLUhqbUdqdzdMU0hHY3BVUUxHZVRKcF9nQWk4ODR0d3xBQ3Jtc0tuQVRWQmRJbVE4cU9Wd0VfTXU2SGdlcjRoeThaM010bkcxNk01eTcwLVZHd0MyR2pGRElmd2VOMHBBMG96aXdUZWJrQmJDTXBmMU83a0IwLUpRT2c1dE0zb1JBMFAtMTFhdG8tUDExS3o2el8wcmFfdw\u0026q=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100012721262619",
+                                        "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                        "rootVe": 83769
+                                    }
+                                },
+                                "urlEndpoint": {
+                                    "url": "https://www.youtube.com/redirect?event=channel_banner\u0026redir_token=QUFFLUhqbUdqdzdMU0hHY3BVUUxHZVRKcF9nQWk4ODR0d3xBQ3Jtc0tuQVRWQmRJbVE4cU9Wd0VfTXU2SGdlcjRoeThaM010bkcxNk01eTcwLVZHd0MyR2pGRElmd2VOMHBBMG96aXdUZWJrQmJDTXBmMU83a0IwLUpRT2c1dE0zb1JBMFAtMTFhdG8tUDExS3o2el8wcmFfdw\u0026q=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100012721262619",
+                                    "target": "TARGET_NEW_WINDOW",
+                                    "nofollow": true
+                                }
+                            },
+                            "icon": {
+                                "thumbnails": [
+                                    {
+                                        "url": "//s2.googleusercontent.com/s2/favicons?domain_url=https%3A%2F%2Fwww.facebook.com%2F\u0026feature=youtube_channel"
+                                    }
+                                ]
+                            },
+                            "title": {
+                                "simpleText": "Facebook Xuân Hữu"
+                            }
+                        }
+                    ]
+                }
+            },
+            "subscribeButton": {
+                "buttonRenderer": {
+                    "style": "STYLE_DESTRUCTIVE",
+                    "size": "SIZE_DEFAULT",
+                    "isDisabled": false,
+                    "text": {
+                        "runs": [
+                            {
+                                "text": "Đăng ký"
+                            }
+                        ]
+                    },
+                    "navigationEndpoint": {
+                        "clickTrackingParams": "CBgQ8FsiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                        "commandMetadata": {
+                            "webCommandMetadata": {
+                                "ignoreNavigation": true
+                            }
+                        },
+                        "modalEndpoint": {
+                            "modal": {
+                                "modalWithTitleAndButtonRenderer": {
+                                    "title": {
+                                        "simpleText": "Bạn muốn đăng ký kênh này?"
+                                    },
+                                    "content": {
+                                        "simpleText": "Đăng nhập để đăng ký kênh này."
+                                    },
+                                    "button": {
+                                        "buttonRenderer": {
+                                            "style": "STYLE_BLUE_TEXT",
+                                            "size": "SIZE_DEFAULT",
+                                            "isDisabled": false,
+                                            "text": {
+                                                "simpleText": "Đăng nhập"
+                                            },
+                                            "navigationEndpoint": {
+                                                "clickTrackingParams": "CBkQ_YYEIhMI6MGJ2fDs7AIVkAZgCh1h_AsJMglzdWJzY3JpYmU=",
+                                                "commandMetadata": {
+                                                    "webCommandMetadata": {
+                                                        "url": "https://accounts.google.com/ServiceLogin?service=youtube\u0026uilel=3\u0026passive=true\u0026continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dvi%26next%3D%252Fchannel%252FUCUDKOh9so7OQg73R69_mDyA%252Fabout%26continue_action%3DQUFFLUhqbjExXy1HNlFudzlMdndhcjdRdzJyTTJ6ODJOZ3xBQ3Jtc0tuNTMyT2tBNmVLZ3VrVzlmMGI0X3JOX2FFc0VFYVUzRHVtRjYxV1ZnLUlPRUltTDlwWXN5X3lJMWJYWEF0OVBkVDNXNkxPQjdSUk1kNXA5ejdIb1dLUk5weXNDS2RMQldCNmRDVE5wZnBFUnJTWWpSUTcyRzdzYVdBVDdSY1J6OUVBdU1zMWRsQW1YWWN1UV9VM2ctaDNMM19uM1oxYVhuRFA0ekVVbjBvLUs4NW5pRUF0Vjg3QzVqZC04V0dZdEkzM0I1Y0o1VzFpN3VHZUxzU3lsSTFvOVhqNml3\u0026hl=vi\u0026ec=66429",
+                                                        "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                                        "rootVe": 83769
+                                                    }
+                                                },
+                                                "signInEndpoint": {
+                                                    "nextEndpoint": {
+                                                        "clickTrackingParams": "CBkQ_YYEIhMI6MGJ2fDs7AIVkAZgCh1h_AsJ",
+                                                        "commandMetadata": {
+                                                            "webCommandMetadata": {
+                                                                "url": "/channel/UCUDKOh9so7OQg73R69_mDyA/about",
+                                                                "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                                                                "rootVe": 3611
+                                                            }
+                                                        },
+                                                        "browseEndpoint": {
+                                                            "browseId": "UCUDKOh9so7OQg73R69_mDyA",
+                                                            "params": "EgVhYm91dA%3D%3D",
+                                                            "canonicalBaseUrl": "/channel/UCUDKOh9so7OQg73R69_mDyA"
+                                                        }
+                                                    },
+                                                    "continueAction": "QUFFLUhqbjExXy1HNlFudzlMdndhcjdRdzJyTTJ6ODJOZ3xBQ3Jtc0tuNTMyT2tBNmVLZ3VrVzlmMGI0X3JOX2FFc0VFYVUzRHVtRjYxV1ZnLUlPRUltTDlwWXN5X3lJMWJYWEF0OVBkVDNXNkxPQjdSUk1kNXA5ejdIb1dLUk5weXNDS2RMQldCNmRDVE5wZnBFUnJTWWpSUTcyRzdzYVdBVDdSY1J6OUVBdU1zMWRsQW1YWWN1UV9VM2ctaDNMM19uM1oxYVhuRFA0ekVVbjBvLUs4NW5pRUF0Vjg3QzVqZC04V0dZdEkzM0I1Y0o1VzFpN3VHZUxzU3lsSTFvOVhqNml3",
+                                                    "idamTag": "66429"
+                                                }
+                                            },
+                                            "trackingParams": "CBkQ_YYEIhMI6MGJ2fDs7AIVkAZgCh1h_AsJ"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "trackingParams": "CBgQ8FsiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                }
+            },
+            "subscriberCountText": {
+                "simpleText": "194 N người đăng ký"
+            },
+            "tvBanner": {
+                "thumbnails": [
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w320-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj",
+                        "width": 320,
+                        "height": 180
+                    },
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w854-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj",
+                        "width": 854,
+                        "height": 480
+                    },
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w1280-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj",
+                        "width": 1280,
+                        "height": 720
+                    },
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w1920-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj",
+                        "width": 1920,
+                        "height": 1080
+                    },
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w2120-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj",
+                        "width": 2120,
+                        "height": 1192
+                    }
+                ]
+            },
+            "mobileBanner": {
+                "thumbnails": [
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w320-fcrop64=1,32b75a57cd48a5a8-k-c0xffffffff-no-nd-rj",
+                        "width": 320,
+                        "height": 52
+                    },
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w640-fcrop64=1,32b75a57cd48a5a8-k-c0xffffffff-no-nd-rj",
+                        "width": 640,
+                        "height": 105
+                    },
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w960-fcrop64=1,32b75a57cd48a5a8-k-c0xffffffff-no-nd-rj",
+                        "width": 960,
+                        "height": 158
+                    },
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w1280-fcrop64=1,32b75a57cd48a5a8-k-c0xffffffff-no-nd-rj",
+                        "width": 1280,
+                        "height": 211
+                    },
+                    {
+                        "url": "https://yt3.ggpht.com/fLaesxjJ69ZRupuyNYYf5glN6Voipx8LM-45Wav4pRLY9dBTgKzXp1a__DKV6lxIgzx0b7PV_w=w1440-fcrop64=1,32b75a57cd48a5a8-k-c0xffffffff-no-nd-rj",
+                        "width": 1440,
+                        "height": 238
+                    }
+                ]
+            },
+            "trackingParams": "CBcQ8DsiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+        }
+    },
+    "metadata": {
+        "channelMetadataRenderer": {
+            "title": "Bolero Kim Tuyến",
+            "description": "Kênh lạc hồng bolero chuyên xuất bản các dòng nhạc dân ca bolero trữ tinh remix nhạc sến hay nhất say đắm lòng người với chất lượng âm thanh tốt nhất đảm bảo chất lượng cao và làm hài lòng bạn nghe nhạc rất mong đc ghé nghe và ủng hộ của tất cả các bạn trên khắp mọi miền  lạc hồng bolero xin kính chúc mọi người nghe nhạc vui vẻ xin chân thành cảm ơn",
+            "rssUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUDKOh9so7OQg73R69_mDyA",
+            "externalId": "UCUDKOh9so7OQg73R69_mDyA",
+            "keywords": "\"nhạc chế remix\" \"nhạc trẻ remix\" \"nhạc chế trong tù\" \"nhạc chế ăn chơi\" \"nhạc sống remix\" \"nhạc dj\" \"nhạc sàn\" \"rik edm\" nonstop \"nhạc trẻ dj\" \"remix nhạc trẻ\" \"nhạc chế xa quê\" \"liên khúc nhạc sống\" \"nhạc sống cha cha\" \"dân ca trữ tình\"",
+            "ownerUrls": [
+                "http://www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA"
+            ],
+            "avatar": {
+                "thumbnails": [
+                    {
+                        "url": "https://yt3.ggpht.com/a/AATXAJxsMgDkZeU5vJJjyFvO_p_uO9hvgQoHNdjvGOzQ4A=s900-c-k-c0x00ffffff-no-rj",
+                        "width": 900,
+                        "height": 900
+                    }
+                ]
+            },
+            "channelUrl": "https://www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA",
+            "isFamilySafe": true,
+            "facebookProfileId": "profile",
+            "availableCountryCodes": [
+                "GB",
+                "GF",
+                "MS",
+                "EE",
+                "BD",
+                "TO",
+                "SH",
+                "KP",
+                "BH",
+                "MY",
+                "MH",
+                "QA",
+                "AW",
+                "NU",
+                "MM",
+                "CO",
+                "RW",
+                "VA",
+                "BF",
+                "KY",
+                "LI",
+                "AX",
+                "LC",
+                "GN",
+                "IT",
+                "NA",
+                "LA",
+                "IR",
+                "IN",
+                "ZA",
+                "NF",
+                "SG",
+                "FR",
+                "MQ",
+                "NL",
+                "GL",
+                "MG",
+                "BT",
+                "CF",
+                "KZ",
+                "GU",
+                "CX",
+                "JE",
+                "RU",
+                "AQ",
+                "PR",
+                "SY",
+                "DE",
+                "LY",
+                "KE",
+                "SK",
+                "AF",
+                "TL",
+                "GD",
+                "ET",
+                "MD",
+                "GS",
+                "TF",
+                "BN",
+                "SZ",
+                "BQ",
+                "PE",
+                "FJ",
+                "AD",
+                "MT",
+                "SD",
+                "MN",
+                "AZ",
+                "BL",
+                "HT",
+                "CL",
+                "MV",
+                "TH",
+                "BZ",
+                "NC",
+                "CK",
+                "GQ",
+                "BW",
+                "MO",
+                "CC",
+                "TK",
+                "CV",
+                "KG",
+                "PS",
+                "FM",
+                "KN",
+                "ID",
+                "CM",
+                "MU",
+                "SO",
+                "VU",
+                "ME",
+                "YT",
+                "PF",
+                "EG",
+                "NR",
+                "AM",
+                "CU",
+                "SR",
+                "UZ",
+                "KM",
+                "PY",
+                "DO",
+                "PL",
+                "PK",
+                "LK",
+                "NI",
+                "CA",
+                "US",
+                "MR",
+                "AL",
+                "MZ",
+                "JO",
+                "HU",
+                "IM",
+                "JP",
+                "NZ",
+                "LS",
+                "MA",
+                "HR",
+                "NO",
+                "FI",
+                "VG",
+                "GT",
+                "SA",
+                "JM",
+                "AS",
+                "PM",
+                "EC",
+                "RO",
+                "HK",
+                "CY",
+                "BB",
+                "DK",
+                "FO",
+                "SS",
+                "TG",
+                "TJ",
+                "AR",
+                "VE",
+                "SJ",
+                "ML",
+                "VI",
+                "DM",
+                "IE",
+                "BR",
+                "AE",
+                "BY",
+                "LV",
+                "YE",
+                "CW",
+                "PH",
+                "TW",
+                "TT",
+                "BI",
+                "UG",
+                "CI",
+                "BJ",
+                "GA",
+                "WS",
+                "GI",
+                "RS",
+                "GY",
+                "SI",
+                "TC",
+                "MX",
+                "BV",
+                "NE",
+                "ZM",
+                "SL",
+                "IQ",
+                "TZ",
+                "BO",
+                "LB",
+                "KW",
+                "DZ",
+                "MW",
+                "TR",
+                "MF",
+                "NP",
+                "DJ",
+                "LU",
+                "KH",
+                "SM",
+                "ZW",
+                "GE",
+                "HM",
+                "PW",
+                "AU",
+                "GW",
+                "ER",
+                "SE",
+                "KR",
+                "CG",
+                "WF",
+                "HN",
+                "LT",
+                "UY",
+                "UM",
+                "AI",
+                "TV",
+                "IL",
+                "SX",
+                "CD",
+                "MK",
+                "UA",
+                "BE",
+                "TN",
+                "BM",
+                "MP",
+                "GM",
+                "GH",
+                "SC",
+                "CH",
+                "IS",
+                "MC",
+                "PA",
+                "BA",
+                "SB",
+                "AT",
+                "VN",
+                "TM",
+                "KI",
+                "OM",
+                "TD",
+                "AO",
+                "SV",
+                "PN",
+                "ES",
+                "ST",
+                "CN",
+                "BG",
+                "AG",
+                "RE",
+                "GR",
+                "CZ",
+                "EH",
+                "GP",
+                "CR",
+                "VC",
+                "PG",
+                "PT",
+                "BS",
+                "GG",
+                "SN",
+                "NG",
+                "LR",
+                "IO",
+                "FK"
+            ],
+            "androidDeepLink": "android-app://com.google.android.youtube/http/www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA",
+            "androidAppindexingLink": "android-app://com.google.android.youtube/http/www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA",
+            "iosAppindexingLink": "ios-app://544007664/vnd.youtube/www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA",
+            "tabPath": "about",
+            "vanityChannelUrl": "http://www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA"
+        }
+    },
+    "trackingParams": "CAAQhGciEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+    "topbar": {
+        "desktopTopbarRenderer": {
+            "logo": {
+                "topbarLogoRenderer": {
+                    "iconImage": {
+                        "iconType": "YOUTUBE_LOGO"
+                    },
+                    "tooltipText": {
+                        "runs": [
+                            {
+                                "text": "Trang chủ YouTube"
+                            }
+                        ]
+                    },
+                    "endpoint": {
+                        "clickTrackingParams": "CBYQsV4iEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                        "commandMetadata": {
+                            "webCommandMetadata": {
+                                "url": "/",
+                                "webPageType": "WEB_PAGE_TYPE_BROWSE",
+                                "rootVe": 3854
+                            }
+                        },
+                        "browseEndpoint": {
+                            "browseId": "FEwhat_to_watch"
+                        }
+                    },
+                    "trackingParams": "CBYQsV4iEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                }
+            },
+            "searchbox": {
+                "fusionSearchboxRenderer": {
+                    "icon": {
+                        "iconType": "SEARCH"
+                    },
+                    "placeholderText": {
+                        "runs": [
+                            {
+                                "text": "Tìm kiếm"
+                            }
+                        ]
+                    },
+                    "config": {
+                        "webSearchboxConfig": {
+                            "requestLanguage": "vi",
+                            "requestDomain": "vn",
+                            "hasOnscreenKeyboard": true,
+                            "focusSearchbox": true
+                        }
+                    },
+                    "trackingParams": "CBUQ7VAiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                    "searchEndpoint": {
+                        "clickTrackingParams": "CBUQ7VAiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                        "commandMetadata": {
+                            "webCommandMetadata": {
+                                "url": "/results?search_query=",
+                                "webPageType": "WEB_PAGE_TYPE_SEARCH",
+                                "rootVe": 4724
+                            }
+                        },
+                        "searchEndpoint": {
+                            "query": ""
+                        }
+                    }
+                }
+            },
+            "trackingParams": "CAEQq6wBIhMI6MGJ2fDs7AIVkAZgCh1h_AsJ",
+            "countryCode": "VN",
+            "topbarButtons": [
+                {
+                    "buttonRenderer": {
+                        "style": "STYLE_DEFAULT",
+                        "size": "SIZE_DEFAULT",
+                        "isDisabled": false,
+                        "icon": {
+                            "iconType": "UPLOAD"
+                        },
+                        "navigationEndpoint": {
+                            "clickTrackingParams": "CBQQ8FsYACITCOjBidnw7OwCFZAGYAodYfwLCQ==",
+                            "commandMetadata": {
+                                "webCommandMetadata": {
+                                    "url": "https://accounts.google.com/ServiceLogin?service=youtube\u0026uilel=3\u0026passive=true\u0026continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dvi%26next%3D%252Fupload\u0026hl=vi",
+                                    "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                    "rootVe": 83769
+                                }
+                            },
+                            "signInEndpoint": {
+                                "nextEndpoint": {
+                                    "clickTrackingParams": "CBQQ8FsYACITCOjBidnw7OwCFZAGYAodYfwLCQ==",
+                                    "commandMetadata": {
+                                        "webCommandMetadata": {
+                                            "url": "/upload",
+                                            "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                            "rootVe": 83769
+                                        }
+                                    },
+                                    "uploadEndpoint": {
+                                        "hack": true
+                                    }
+                                }
+                            }
+                        },
+                        "accessibility": {
+                            "label": "Tải lên"
+                        },
+                        "tooltip": "Tải lên",
+                        "trackingParams": "CBQQ8FsYACITCOjBidnw7OwCFZAGYAodYfwLCQ==",
+                        "accessibilityData": {
+                            "accessibilityData": {
+                                "label": "Tải lên"
+                            }
+                        }
+                    }
+                },
+                {
+                    "topbarMenuButtonRenderer": {
+                        "icon": {
+                            "iconType": "APPS"
+                        },
+                        "menuRenderer": {
+                            "multiPageMenuRenderer": {
+                                "sections": [
+                                    {
+                                        "multiPageMenuSectionRenderer": {
+                                            "items": [
+                                                {
+                                                    "compactLinkRenderer": {
+                                                        "icon": {
+                                                            "iconType": "UNPLUGGED_LOGO"
+                                                        },
+                                                        "title": {
+                                                            "runs": [
+                                                                {
+                                                                    "text": "YouTube TV"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "navigationEndpoint": {
+                                                            "clickTrackingParams": "CBMQ4MUCGAAiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                                                            "commandMetadata": {
+                                                                "webCommandMetadata": {
+                                                                    "url": "https://tv.youtube.com/?utm_source=youtube_web\u0026utm_medium=ep\u0026utm_campaign=home\u0026ve=34273",
+                                                                    "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                                                    "rootVe": 83769
+                                                                }
+                                                            },
+                                                            "urlEndpoint": {
+                                                                "url": "https://tv.youtube.com/?utm_source=youtube_web\u0026utm_medium=ep\u0026utm_campaign=home\u0026ve=34273",
+                                                                "target": "TARGET_NEW_WINDOW"
+                                                            }
+                                                        },
+                                                        "trackingParams": "CBMQ4MUCGAAiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                                                    }
+                                                }
+                                            ],
+                                            "trackingParams": "CBIQ968BGAAiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                                        }
+                                    },
+                                    {
+                                        "multiPageMenuSectionRenderer": {
+                                            "items": [
+                                                {
+                                                    "compactLinkRenderer": {
+                                                        "icon": {
+                                                            "iconType": "YOUTUBE_MUSIC"
+                                                        },
+                                                        "title": {
+                                                            "runs": [
+                                                                {
+                                                                    "text": "YouTube Music"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "navigationEndpoint": {
+                                                            "clickTrackingParams": "CBEQ4sUCGAAiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                                                            "commandMetadata": {
+                                                                "webCommandMetadata": {
+                                                                    "url": "https://music.youtube.com/",
+                                                                    "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                                                    "rootVe": 83769
+                                                                }
+                                                            },
+                                                            "urlEndpoint": {
+                                                                "url": "https://music.youtube.com",
+                                                                "target": "TARGET_NEW_WINDOW"
+                                                            }
+                                                        },
+                                                        "trackingParams": "CBEQ4sUCGAAiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                                                    }
+                                                },
+                                                {
+                                                    "compactLinkRenderer": {
+                                                        "icon": {
+                                                            "iconType": "YOUTUBE_KIDS_ROUND"
+                                                        },
+                                                        "title": {
+                                                            "runs": [
+                                                                {
+                                                                    "text": "YouTube Kids"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "navigationEndpoint": {
+                                                            "clickTrackingParams": "CBAQ48UCGAEiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                                                            "commandMetadata": {
+                                                                "webCommandMetadata": {
+                                                                    "url": "https://www.youtubekids.com/?source=youtube_web",
+                                                                    "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                                                    "rootVe": 83769
+                                                                }
+                                                            },
+                                                            "urlEndpoint": {
+                                                                "url": "https://www.youtubekids.com?source=youtube_web",
+                                                                "target": "TARGET_NEW_WINDOW"
+                                                            }
+                                                        },
+                                                        "trackingParams": "CBAQ48UCGAEiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                                                    }
+                                                }
+                                            ],
+                                            "trackingParams": "CA8Q968BGAEiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                                        }
+                                    },
+                                    {
+                                        "multiPageMenuSectionRenderer": {
+                                            "items": [
+                                                {
+                                                    "compactLinkRenderer": {
+                                                        "icon": {
+                                                            "iconType": "YOUTUBE_ROUND"
+                                                        },
+                                                        "title": {
+                                                            "runs": [
+                                                                {
+                                                                    "text": "Học viện sáng tạo"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "navigationEndpoint": {
+                                                            "clickTrackingParams": "CA4Q5MUCGAAiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                                                            "commandMetadata": {
+                                                                "webCommandMetadata": {
+                                                                    "url": "https://creatoracademy.youtube.com/page/education?utm_source=YouTube\u0026utm_medium=YT%20Main\u0026utm_campaign=YT%20Appsn",
+                                                                    "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                                                    "rootVe": 83769
+                                                                }
+                                                            },
+                                                            "urlEndpoint": {
+                                                                "url": "https://creatoracademy.youtube.com/page/education?utm_source=YouTube\u0026utm_medium=YT%20Main\u0026utm_campaign=YT%20Appsn",
+                                                                "target": "TARGET_NEW_WINDOW"
+                                                            }
+                                                        },
+                                                        "trackingParams": "CA4Q5MUCGAAiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                                                    }
+                                                },
+                                                {
+                                                    "compactLinkRenderer": {
+                                                        "icon": {
+                                                            "iconType": "YOUTUBE_ROUND"
+                                                        },
+                                                        "title": {
+                                                            "runs": [
+                                                                {
+                                                                    "text": "YouTube dành cho Nghệ sĩ"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "navigationEndpoint": {
+                                                            "clickTrackingParams": "CA0Q5cUCGAEiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                                                            "commandMetadata": {
+                                                                "webCommandMetadata": {
+                                                                    "url": "https://artists.youtube.com/",
+                                                                    "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                                                    "rootVe": 83769
+                                                                }
+                                                            },
+                                                            "urlEndpoint": {
+                                                                "url": "https://artists.youtube.com/",
+                                                                "target": "TARGET_NEW_WINDOW"
+                                                            }
+                                                        },
+                                                        "trackingParams": "CA0Q5cUCGAEiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                                                    }
+                                                }
+                                            ],
+                                            "trackingParams": "CAwQ968BGAIiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                                        }
+                                    }
+                                ],
+                                "trackingParams": "CAsQ_6sBIhMI6MGJ2fDs7AIVkAZgCh1h_AsJ"
+                            }
+                        },
+                        "trackingParams": "CAoQ_qsBGAEiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                        "accessibility": {
+                            "accessibilityData": {
+                                "label": "Các ứng dụng YouTube"
+                            }
+                        },
+                        "tooltip": "Các ứng dụng YouTube",
+                        "style": "STYLE_DEFAULT",
+                        "targetId": "topbar-apps"
+                    }
+                },
+                {
+                    "topbarMenuButtonRenderer": {
+                        "icon": {
+                            "iconType": "MORE_VERT"
+                        },
+                        "menuRequest": {
+                            "clickTrackingParams": "CAgQ_qsBGAIiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                            "commandMetadata": {
+                                "webCommandMetadata": {
+                                    "url": "/service_ajax",
+                                    "sendPost": true,
+                                    "apiUrl": "/youtubei/v1/account/account_menu"
+                                }
+                            },
+                            "signalServiceEndpoint": {
+                                "signal": "GET_ACCOUNT_MENU",
+                                "actions": [
+                                    {
+                                        "clickTrackingParams": "CAgQ_qsBGAIiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                                        "openPopupAction": {
+                                            "popup": {
+                                                "multiPageMenuRenderer": {
+                                                    "trackingParams": "CAkQ_6sBIhMI6MGJ2fDs7AIVkAZgCh1h_AsJ",
+                                                    "style": "MULTI_PAGE_MENU_STYLE_TYPE_SYSTEM",
+                                                    "showLoadingSpinner": true
+                                                }
+                                            },
+                                            "popupType": "DROPDOWN",
+                                            "beReused": true
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "trackingParams": "CAgQ_qsBGAIiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                        "accessibility": {
+                            "accessibilityData": {
+                                "label": "Cài đặt"
+                            }
+                        },
+                        "tooltip": "Cài đặt",
+                        "style": "STYLE_DEFAULT"
+                    }
+                },
+                {
+                    "buttonRenderer": {
+                        "style": "STYLE_SUGGESTIVE",
+                        "size": "SIZE_SMALL",
+                        "text": {
+                            "runs": [
+                                {
+                                    "text": "Đăng nhập"
+                                }
+                            ]
+                        },
+                        "icon": {
+                            "iconType": "AVATAR_LOGGED_OUT"
+                        },
+                        "navigationEndpoint": {
+                            "clickTrackingParams": "CAcQ1IAEGAMiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                            "commandMetadata": {
+                                "webCommandMetadata": {
+                                    "url": "https://accounts.google.com/ServiceLogin?service=youtube\u0026uilel=3\u0026passive=true\u0026continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dvi%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCUDKOh9so7OQg73R69_mDyA%252Fabout\u0026hl=vi\u0026ec=65620",
+                                    "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                    "rootVe": 83769
+                                }
+                            },
+                            "signInEndpoint": {
+                                "idamTag": "65620"
+                            }
+                        },
+                        "trackingParams": "CAcQ1IAEGAMiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                        "targetId": "topbar-signin"
+                    }
+                }
+            ],
+            "hotkeyDialog": {
+                "hotkeyDialogRenderer": {
+                    "title": {
+                        "runs": [
+                            {
+                                "text": "Phím tắt"
+                            }
+                        ]
+                    },
+                    "sections": [
+                        {
+                            "hotkeyDialogSectionRenderer": {
+                                "title": {
+                                    "runs": [
+                                        {
+                                            "text": "Phát"
+                                        }
+                                    ]
+                                },
+                                "options": [
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Chuyển đổi phát/tạm dừng"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "k"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Tua lại 10 giây"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "j"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Tua đi 10 giây"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "l"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Video trước"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "P (SHIFT+p)"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Video tiếp theo"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "N (SHIFT+n)"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Khung hình trước (trong khi tạm dừng)"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": ",",
+                                            "hotkeyAccessibilityLabel": {
+                                                "accessibilityData": {
+                                                    "label": "Dấu phẩy"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Khung hình tiếp theo (trong khi tạm dừng)"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": ".",
+                                            "hotkeyAccessibilityLabel": {
+                                                "accessibilityData": {
+                                                    "label": "Dấu chấm"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Giảm tốc độ phát"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "\u003c (SHIFT+,)",
+                                            "hotkeyAccessibilityLabel": {
+                                                "accessibilityData": {
+                                                    "label": "Dấu nhỏ hơn hoặc SHIFT + dấu phẩy"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Tăng tốc độ phát"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "\u003e (SHIFT+.)",
+                                            "hotkeyAccessibilityLabel": {
+                                                "accessibilityData": {
+                                                    "label": "Dấu lớn hơn hoặc SHIFT + dấu chấm"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Tua đến một thời điểm cụ thể trong video (tua đi từ 7 đến 70% thời lượng)"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "0..9"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "hotkeyDialogSectionRenderer": {
+                                "title": {
+                                    "runs": [
+                                        {
+                                            "text": "Chung"
+                                        }
+                                    ]
+                                },
+                                "options": [
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Chuyển đổi chế độ toàn màn hình"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "f"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Bật/tắt chế độ rạp chiếu phim"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "t"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Bật/tắt trình phát thu nhỏ"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "i"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Đóng trình phát thu nhỏ hoặc hộp thoại hiện tại"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "PHÍM ESCAPE"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Bật/tắt tiếng"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "m"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "hotkeyDialogSectionRenderer": {
+                                "title": {
+                                    "runs": [
+                                        {
+                                            "text": "Phụ đề"
+                                        }
+                                    ]
+                                },
+                                "options": [
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Nếu video hỗ trợ phụ đề, hãy BẬT/TẮT phụ đề"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "c"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Xoay để điều chỉnh các cấp độ mờ khác nhau của văn bản"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "o"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Xoay để điều chỉnh các cấp độ mờ khác nhau của cửa sổ"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "w"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Xoay để điều chỉnh kích thước phông chữ (tăng)"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "+"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Xoay để điều chỉnh kích thước phông chữ (giảm)"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "-",
+                                            "hotkeyAccessibilityLabel": {
+                                                "accessibilityData": {
+                                                    "label": "Dấu trừ"
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "hotkeyDialogSectionRenderer": {
+                                "title": {
+                                    "runs": [
+                                        {
+                                            "text": "Video 360 độ"
+                                        }
+                                    ]
+                                },
+                                "options": [
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Dịch chuyển lên trên"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "w"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Dịch chuyển sang trái"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "a"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Dịch chuyển xuống"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "s"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Dịch chuyển sang phải"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "d"
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Phóng to"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "+ trên bàn phím số hoặc ]",
+                                            "hotkeyAccessibilityLabel": {
+                                                "accessibilityData": {
+                                                    "label": "Dấu cộng trên bàn phím số hoặc dấu ngoặc đơn phải"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "hotkeyDialogSectionOptionRenderer": {
+                                            "label": {
+                                                "runs": [
+                                                    {
+                                                        "text": "Thu nhỏ"
+                                                    }
+                                                ]
+                                            },
+                                            "hotkey": "- trên bàn phím số hoặc [",
+                                            "hotkeyAccessibilityLabel": {
+                                                "accessibilityData": {
+                                                    "label": "Dấu trừ trên bàn phím số hoặc dấu ngoặc đơn trái"
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "dismissButton": {
+                        "buttonRenderer": {
+                            "style": "STYLE_BLUE_TEXT",
+                            "size": "SIZE_DEFAULT",
+                            "isDisabled": false,
+                            "text": {
+                                "runs": [
+                                    {
+                                        "text": "Loại bỏ"
+                                    }
+                                ]
+                            },
+                            "trackingParams": "CAYQ8FsiEwjowYnZ8OzsAhWQBmAKHWH8Cwk="
+                        }
+                    },
+                    "trackingParams": "CAUQteYDIhMI6MGJ2fDs7AIVkAZgCh1h_AsJ"
+                }
+            },
+            "backButton": {
+                "buttonRenderer": {
+                    "trackingParams": "CAQQvIYDIhMI6MGJ2fDs7AIVkAZgCh1h_AsJ",
+                    "command": {
+                        "clickTrackingParams": "CAQQvIYDIhMI6MGJ2fDs7AIVkAZgCh1h_AsJ",
+                        "commandMetadata": {
+                            "webCommandMetadata": {
+                                "url": "/service_ajax",
+                                "sendPost": true
+                            }
+                        },
+                        "signalServiceEndpoint": {
+                            "signal": "CLIENT_SIGNAL",
+                            "actions": [
+                                {
+                                    "clickTrackingParams": "CAQQvIYDIhMI6MGJ2fDs7AIVkAZgCh1h_AsJ",
+                                    "signalAction": {
+                                        "signal": "HISTORY_BACK"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "forwardButton": {
+                "buttonRenderer": {
+                    "trackingParams": "CAMQvYYDIhMI6MGJ2fDs7AIVkAZgCh1h_AsJ",
+                    "command": {
+                        "clickTrackingParams": "CAMQvYYDIhMI6MGJ2fDs7AIVkAZgCh1h_AsJ",
+                        "commandMetadata": {
+                            "webCommandMetadata": {
+                                "url": "/service_ajax",
+                                "sendPost": true
+                            }
+                        },
+                        "signalServiceEndpoint": {
+                            "signal": "CLIENT_SIGNAL",
+                            "actions": [
+                                {
+                                    "clickTrackingParams": "CAMQvYYDIhMI6MGJ2fDs7AIVkAZgCh1h_AsJ",
+                                    "signalAction": {
+                                        "signal": "HISTORY_FORWARD"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "a11ySkipNavigationButton": {
+                "buttonRenderer": {
+                    "style": "STYLE_DEFAULT",
+                    "size": "SIZE_DEFAULT",
+                    "isDisabled": false,
+                    "text": {
+                        "runs": [
+                            {
+                                "text": "Bỏ qua điều hướng"
+                            }
+                        ]
+                    },
+                    "trackingParams": "CAIQ8FsiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                    "command": {
+                        "clickTrackingParams": "CAIQ8FsiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                        "commandMetadata": {
+                            "webCommandMetadata": {
+                                "url": "/service_ajax",
+                                "sendPost": true
+                            }
+                        },
+                        "signalServiceEndpoint": {
+                            "signal": "CLIENT_SIGNAL",
+                            "actions": [
+                                {
+                                    "clickTrackingParams": "CAIQ8FsiEwjowYnZ8OzsAhWQBmAKHWH8Cwk=",
+                                    "signalAction": {
+                                        "signal": "SKIP_NAVIGATION"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "microformat": {
+        "microformatDataRenderer": {
+            "urlCanonical": "https://www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA",
+            "title": "Bolero Kim Tuyến",
+            "description": "Kênh lạc hồng bolero chuyên xuất bản các dòng nhạc dân ca bolero trữ tinh remix nhạc sến hay nhất say đắm lòng người với chất lượng âm thanh tốt nhất đảm bảo...",
+            "thumbnail": {
+                "thumbnails": [
+                    {
+                        "url": "https://yt3.ggpht.com/a/AATXAJxsMgDkZeU5vJJjyFvO_p_uO9hvgQoHNdjvGOzQ4A=s200-c-k-c0x00ffffff-no-rj?days_since_epoch=18572",
+                        "width": 200,
+                        "height": 200
+                    }
+                ]
+            },
+            "siteName": "YouTube",
+            "appName": "YouTube",
+            "androidPackage": "com.google.android.youtube",
+            "iosAppStoreId": "544007664",
+            "iosAppArguments": "https://www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA",
+            "ogType": "yt-fb-app:channel",
+            "urlApplinksWeb": "https://www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA?feature=applinks",
+            "urlApplinksIos": "vnd.youtube://www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA?feature=applinks",
+            "urlApplinksAndroid": "vnd.youtube://www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA?feature=applinks",
+            "urlTwitterIos": "vnd.youtube://www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA?feature=twitter-deep-link",
+            "urlTwitterAndroid": "vnd.youtube://www.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA?feature=twitter-deep-link",
+            "twitterCardType": "summary",
+            "twitterSiteHandle": "@YouTube",
+            "schemaDotOrgType": "http://schema.org/http://schema.org/YoutubeChannelV2",
+            "noindex": false,
+            "unlisted": false,
+            "familySafe": true,
+            "tags": [
+                "nhạc chế remix",
+                "nhạc trẻ remix",
+                "nhạc chế trong tù",
+                "nhạc chế ăn chơi",
+                "nhạc sống remix",
+                "nhạc dj",
+                "nhạc sàn",
+                "rik edm",
+                "nonstop",
+                "nhạc trẻ dj",
+                "remix nhạc trẻ",
+                "nhạc chế xa quê",
+                "liên khúc nhạc sống",
+                "nhạc sống cha cha",
+                "dân ca trữ tình"
+            ],
+            "availableCountries": [
+                "GB",
+                "GF",
+                "MS",
+                "EE",
+                "BD",
+                "TO",
+                "SH",
+                "KP",
+                "BH",
+                "MY",
+                "MH",
+                "QA",
+                "AW",
+                "NU",
+                "MM",
+                "CO",
+                "RW",
+                "VA",
+                "BF",
+                "KY",
+                "LI",
+                "AX",
+                "LC",
+                "GN",
+                "IT",
+                "NA",
+                "LA",
+                "IR",
+                "IN",
+                "ZA",
+                "NF",
+                "SG",
+                "FR",
+                "MQ",
+                "NL",
+                "GL",
+                "MG",
+                "BT",
+                "CF",
+                "KZ",
+                "GU",
+                "CX",
+                "JE",
+                "RU",
+                "AQ",
+                "PR",
+                "SY",
+                "DE",
+                "LY",
+                "KE",
+                "SK",
+                "AF",
+                "TL",
+                "GD",
+                "ET",
+                "MD",
+                "GS",
+                "TF",
+                "BN",
+                "SZ",
+                "BQ",
+                "PE",
+                "FJ",
+                "AD",
+                "MT",
+                "SD",
+                "MN",
+                "AZ",
+                "BL",
+                "HT",
+                "CL",
+                "MV",
+                "TH",
+                "BZ",
+                "NC",
+                "CK",
+                "GQ",
+                "BW",
+                "MO",
+                "CC",
+                "TK",
+                "CV",
+                "KG",
+                "PS",
+                "FM",
+                "KN",
+                "ID",
+                "CM",
+                "MU",
+                "SO",
+                "VU",
+                "ME",
+                "YT",
+                "PF",
+                "EG",
+                "NR",
+                "AM",
+                "CU",
+                "SR",
+                "UZ",
+                "KM",
+                "PY",
+                "DO",
+                "PL",
+                "PK",
+                "LK",
+                "NI",
+                "CA",
+                "US",
+                "MR",
+                "AL",
+                "MZ",
+                "JO",
+                "HU",
+                "IM",
+                "JP",
+                "NZ",
+                "LS",
+                "MA",
+                "HR",
+                "NO",
+                "FI",
+                "VG",
+                "GT",
+                "SA",
+                "JM",
+                "AS",
+                "PM",
+                "EC",
+                "RO",
+                "HK",
+                "CY",
+                "BB",
+                "DK",
+                "FO",
+                "SS",
+                "TG",
+                "TJ",
+                "AR",
+                "VE",
+                "SJ",
+                "ML",
+                "VI",
+                "DM",
+                "IE",
+                "BR",
+                "AE",
+                "BY",
+                "LV",
+                "YE",
+                "CW",
+                "PH",
+                "TW",
+                "TT",
+                "BI",
+                "UG",
+                "CI",
+                "BJ",
+                "GA",
+                "WS",
+                "GI",
+                "RS",
+                "GY",
+                "SI",
+                "TC",
+                "MX",
+                "BV",
+                "NE",
+                "ZM",
+                "SL",
+                "IQ",
+                "TZ",
+                "BO",
+                "LB",
+                "KW",
+                "DZ",
+                "MW",
+                "TR",
+                "MF",
+                "NP",
+                "DJ",
+                "LU",
+                "KH",
+                "SM",
+                "ZW",
+                "GE",
+                "HM",
+                "PW",
+                "AU",
+                "GW",
+                "ER",
+                "SE",
+                "KR",
+                "CG",
+                "WF",
+                "HN",
+                "LT",
+                "UY",
+                "UM",
+                "AI",
+                "TV",
+                "IL",
+                "SX",
+                "CD",
+                "MK",
+                "UA",
+                "BE",
+                "TN",
+                "BM",
+                "MP",
+                "GM",
+                "GH",
+                "SC",
+                "CH",
+                "IS",
+                "MC",
+                "PA",
+                "BA",
+                "SB",
+                "AT",
+                "VN",
+                "TM",
+                "KI",
+                "OM",
+                "TD",
+                "AO",
+                "SV",
+                "PN",
+                "ES",
+                "ST",
+                "CN",
+                "BG",
+                "AG",
+                "RE",
+                "GR",
+                "CZ",
+                "EH",
+                "GP",
+                "CR",
+                "VC",
+                "PG",
+                "PT",
+                "BS",
+                "GG",
+                "SN",
+                "NG",
+                "LR",
+                "IO",
+                "FK"
+            ],
+            "linkAlternates": [
+                {
+                    "hrefUrl": "https://m.youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA"
+                },
+                {
+                    "hrefUrl": "android-app://com.google.android.youtube/http/youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA"
+                },
+                {
+                    "hrefUrl": "ios-app://544007664/http/youtube.com/channel/UCUDKOh9so7OQg73R69_mDyA"
+                }
+            ]
+        }
+    }
+}

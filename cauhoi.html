@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icon/king.png">
+    <meta http-equiv="Content-Security-Policy" content="default-src *;
+     img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
+     style-src  'self' 'unsafe-inline' *">
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <title>Danh sách câu hỏi</title>
+</head>
+<style>
+    .dark-mode {
+        background-color: black;
+        color: white !important;
+    }
+
+    .dark-mode .table td,
+    .dark-mode .table th {
+        color: white !important;
+    }
+</style>
+
+<body class="dark-mode">
+    <div class="container-fluid " style="position: relative;">
+        <table class="table table-striped btn-table" style="width: 100%;">
+
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Câu Hỏi</th>
+                    <th>Câu Trả Lời</th>
+                    <th>Chức Năng</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <hr style="color: white;background: white;">
+        <form style="margin-bottom: 20px;">
+            <div class="form-row">
+                <h3 style="text-align: center;width: 100%;">Thêm Câu Hỏi</h3>
+                <div class="form-group col-md-12">
+                    <label for="question">Link Câu Hỏi</label>
+                    <input type="text" class="form-control" id="question" placeholder="Câu hỏi">
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="inputPassword4">Trả Lời</label>
+                    <textarea class="form-control" id="anwser" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary" style="width: 100%;" onclick="addNewQuestion()">Thêm
+                Mới</button>
+        </form>
+    </div>
+    <script src="./renderer.js"></script>
+    <script src="./server/database.js"></script>
+
+    <script>
+        const { ipcRenderer, remote } = require('electron')
+        const { dialog } = remote;
+        const
+            {
+            } = require("./constant.js");
+        const uuid = require("uuid");
+    </script>
+    <script>window.$ = window.jQuery = require('jquery');</script>
+    <script>require('popper.js');</script>
+    <script>require('bootstrap');</script>
+
+    <script>
+        function showAbout(type, title, message) {
+            //type warning, info, question, error
+            dialog.showMessageBox({
+                title: title,
+                buttons: ['Close'],
+                type: type,
+                message: message,
+            });
+        }
+        function addNewQuestion() {
+            let question = $("#question").val();
+            let answer = $("#anwser").val();
+            if (!question || !answer) {
+                showAbout("error", "Lỗi!", "Dữ liệu không đầy đủ!"); return false;
+            }
+            db.get('question')
+                .push({ id: uuid.v1(), question: question, answer })
+                .write();
+            showListQuestion();
+            $("#question").val("");
+            $("#anwser").val("");
+        }
+        function getListQuestion() {
+            let mList = db.get("question").value();
+            return mList;
+        }
+
+        function showListQuestion() {
+            let mList = getListQuestion();
+            // console.log({ mList })
+            let html = "";
+            let k = 1;
+            for (let item of mList) {
+                html += `
+                    <tr>
+                        <td>${k++}</td>    
+                        <td>${item.question}</td>    
+                        <td>${item.answer.substr(0, 20)}...</td>    
+                        <td>
+                            <button class="btn btn-danger" onclick="deleteQuestion('${item.id}')">Xóa</button>    
+                            <button class="btn btn-success" onclick="chooseQuestion('${item.id}')">Chọn</button>    
+                        </td>    
+                    </tr>
+                
+                `;
+            }
+            // console.log(html)
+            $("table>tbody").html(html)
+        }
+        showListQuestion();
+
+        function deleteQuestion(question_id) {
+            db.get('question')
+                .remove({ id: question_id })
+                .write()
+            showListQuestion();
+        }
+    </script>
+</body>
+
+</html>

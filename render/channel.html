@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển đổi audio</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src *;
+   img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
+   style-src  'self' 'unsafe-inline' *">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <style>
+        .dark-mode {
+            background-color: black;
+            color: white !important;
+        }
+
+        .dark-mode .table td,
+        .dark-mode .table th {
+            color: white !important;
+        }
+    </style>
+
+</head>
+
+<body class="dark-mode">
+    <div class="content">
+        <div class="create-video">
+            <label><b>File Audio</b></label>
+            <label for="nameAudio" class="chooseFile">Chọn file</label><span id="fileName"></span>
+            <div class="form-group">
+                <textarea id="code" class="form-control"></textarea>
+            </div>
+            <input id="nameAudio" type="file" onchange="uploadFile(event)" accept=".mp3" multiple style="display: none;" />
+            <div class="button">
+                <button id="createVideo" class="btn btn-primary" type="button" onclick="createVideo();">
+                    Tạo video
+                </button>
+                <button class="btn btn-success" onclick="checkCopyright()">Bản quyền</button>
+            </div>
+            <span id="toUpload" onclick="toUpload()"><i class="fas fa-chevron-circle-right"></i></span>
+        </div>
+        <div class="upload-video">
+            <div class="form-group col-md-12">
+                <label><b>Cookie</b></label>
+                <textarea class="form-control" id="cookie" rows="8"></textarea>
+            </div>
+            <div class="button">
+                <button id="id_add_new" class="btn btn-primary" onclick="addChannel()">Thêm mới
+                </button>
+                <button class="btn btn-success" onclick="runUploadVideoV2()">Tải lên</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        const { ipcRenderer, remote } = require('electron')
+        const { dialog } = remote;
+        const
+            {
+                ADD_CHANNEL_YOUTUBE, RESULT_ADD_CHANNEL_YOUTUBE
+            } = require("../constant.js");
+        const uuid = require("uuid");
+    </script>
+    <script src="../renderer.js"></script>
+    <script src="../server/database.js"></script>
+    <script>window.$ = window.jQuery = require('jquery');</script>
+    <script>require('popper.js');</script>
+    <script>require('bootstrap');</script>
+
+    <script>
+        const toUpload = () => {
+            if ($('#toUpload').html() == `<i class="fas fa-chevron-circle-right"></i>`) {
+                $('.create-video').css('left', '-100%')
+                $('.upload-video').css('left', '0')
+                $('#toUpload').css({ 'left': '5vw', 'transform': 'rotate(360deg)' })
+                $('#toUpload').html(`<i class="fas fa-chevron-circle-left"></i>`)
+            } else {
+                $('.create-video').css('left', '0')
+                $('.upload-video').css('left', '100%')
+                $('#toUpload').css({ 'left': '90vw', 'transform': 'rotate(360deg)' })
+                $('#toUpload').html(`<i class="fas fa-chevron-circle-right"></i>`)
+            }
+        }
+        function showAbout(type, title, message) {
+            //type warning, info, question, error
+            dialog.showMessageBox({
+                title: title,
+                buttons: ['Close'],
+                type: type,
+                message: message,
+            });
+        }
+
+        function addChannel() {
+            let link = 'https://www.youtube.com/channel/UCBqp0SBiNXX9ejMCHQSPV8g'
+            let cookie = $("#cookie").val();
+            if (!link || !cookie) {
+                showAbout("info", "Thông Báo", "Vui lòng nhập cookie");
+                return true;
+            }
+            cookie = JSON.parse(cookie.trim());
+            let dataChannel = {
+                link: link,
+                cookie: cookie,
+                info_link: {},
+                info_cookie: {}
+            };
+
+            // get info channel clone
+            ipcRenderer.send(ADD_CHANNEL_YOUTUBE, dataChannel)
+
+            $("#cookie").val("");
+            $("#id_add_new").prop('disabled', true);
+        }
+
+        function showListChannel() {
+            let mList = db.get("channel").value()
+            // console.log({ mList })
+            let html = "";
+            let k = 1;
+            for (let item of mList) {
+                html += `
+                    <tr>
+                        <td>${k++}</td>    
+                        <td>${item.link}</td>    
+                        <td>${JSON.stringify(item.cookie).substr(0, 20)}...</td>    
+                        <td>
+                            <button class="btn btn-danger" onclick="deleteChannel('${item.id}')">Xóa</button>  
+                        </td>    
+                    </tr>
+                
+                `;
+            }
+            $("table>tbody").html(html)
+        }
+
+        function deleteChannel(id) {
+            db.get('channel')
+                .remove({ id: id })
+                .write();
+            db.get('video')
+                .remove({ channel_id: id })
+                .write();
+            showListChannel();
+            ipcRenderer.send("RELOAD_LIST_CHANNEL", {});
+        }
+
+        showListChannel();
+
+        ipcRenderer.on(RESULT_ADD_CHANNEL_YOUTUBE, async (event, arg) => {
+            $("#id_add_new").prop('disabled', false);
+            console.log("RESULT_ADD_CHANNEL_YOUTUBE", arg)
+            let videos = arg.result.dataResponse.info_clone.videos;
+            delete arg.result.dataResponse.info_clone.videos;
+            let dataChannel = {
+                id: 'this-is-id',
+                link: arg.result.dataRequest.link,
+                cookie: arg.result.dataRequest.cookie,
+                info_link: arg.result.dataResponse,
+                info_cookie: {},
+                created_at: new Date().toISOString()
+            };
+            db.get('channel').remove({ id: dataChannel.id }).write();
+            db.get('channel').push(dataChannel).write();
+            showListChannel();
+            console.log({ arg })
+            ipcRenderer.send("RELOAD_LIST_CHANNEL", {});
+        })
+        function darkmode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+
+        async function fetchAsync(url) {
+            let response = await fetch(url);
+            let data = await response.json();
+            return data;
+        }
+
+        function test() {
+            let id = "315a9ad0-258d-11eb-bc00-456c26c6ebe9";
+            let listVideoChannelClone = db.get("channel").find({ id: id }).value();
+            let listVideos = listVideoChannelClone.info_link.info_clone.videos;
+            ipcRenderer.send("TEST", { listVideos })
+        }
+    </script>
+    <script src="../client/index.js"></script>
+    <!--<script src="./client/indexCopyVideo.js"></script>-->
+    <script src="../client/runCloneVideoChannel.js"></script>
+    <script src="../client/createVideo.js"></script>
+    <script src="../client/checkCopyright.js"></script>
+</body>
+
+</html>

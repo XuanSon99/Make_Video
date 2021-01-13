@@ -1,0 +1,81 @@
+.dark-mode {
+    background-color: black;
+    color: white !important;
+    ;
+  }
+
+  .mb-3 {
+    padding-top: 20px !important;
+  }
+
+  .dark-mode .title_area {
+    position: absolute;
+    top: -15px;
+    background: black;
+    color: white;
+    left: 13px;
+    z-index: 9;
+    padding: 0px 7px;
+  }
+
+  .title_area {
+    position: absolute;
+    top: -15px;
+    background: white;
+    color: black;
+    left: 13px;
+    z-index: 9;
+    padding: 0px 7px;
+  }
+
+  .dark-mode a {
+    color: crimson !important;
+  }
+
+  .dark-mode .table td,
+  .dark-mode .table th {
+    color: white !important;
+  }
+
+  .dark-mode>.table {
+    color: white !important;
+  }
+
+  .mb-3 {
+    border: 1px solid #cccccc;
+    padding: 10px;
+  }
+
+  .dark-mode .mb-3 {
+    border: 1px solid white;
+  }
+
+  .modal {
+    color: black !important;
+  }
+
+  .form-custom {
+    border: 1px solid #cccccc;
+    position: relative;
+    padding-top: 20px;
+  }
+
+  .dark-mode .form-custom {
+    border: 1px solid #cccccc;
+  }
+
+  button {
+    width: 100%;
+    ;
+  }
+
+  .div-status-tool {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #28a745;
+    top: 17px;
+    right: 5px;
+    display: block;
+    position: absolute;
+  }
